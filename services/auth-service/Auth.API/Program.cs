@@ -1,16 +1,24 @@
-using Microsoft.EntityFrameworkCore;
+using Auth.Application.Interfaces;
 using Auth.Infrastructure.Data;
+using Auth.Infrastructure.Repositories;
+using Auth.Infrastructure.Services;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
 
-// Register PostgreSQL DbContext
+// 1. Add PostgreSQL Database Context
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/asp.netcore/swag
+// 2. Register Repositories and Services for Dependency Injection
+builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IAuthService, AuthService>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/asp50/netcore
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
