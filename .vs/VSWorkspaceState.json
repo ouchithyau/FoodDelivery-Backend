@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\api-gateway",
+    "\\api-gateway\\FoodDelivery.ApiGateway",
+    "\\FoodDelivery",
+    "\\services",
+    "\\services\\auth-service",
+    "\\services\\auth-service\\Auth.API",
+    "\\services\\auth-service\\Auth.Domain",
+    "\\services\\auth-service\\Auth.Domain\\Entities"
+  ],
+  "SelectedNode": "\\services\\auth-service\\Auth.API\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,12 @@
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\bin\Debug\net8.0\FoodDelivery.SharedKernel.deps.json
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\bin\Debug\net8.0\FoodDelivery.SharedKernel.dll
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\bin\Debug\net8.0\FoodDelivery.SharedKernel.pdb
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\FoodDelivery.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\FoodDelivery.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\FoodDelivery.SharedKernel.AssemblyInfo.cs
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\FoodDelivery.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\FoodDelivery.SharedKernel.dll
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\refint\FoodDelivery.SharedKernel.dll
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\FoodDelivery.SharedKernel.pdb
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\ref\FoodDelivery.SharedKernel.dll
+C:\Users\ouchi\OneDrive\Desktop\FoodDelivery\FoodDelivery-Backend\shared\FoodDelivery.SharedKernel\obj\Debug\net8.0\FoodDeli.6C4E0B22.Up2Date
