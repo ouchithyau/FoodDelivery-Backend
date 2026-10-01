@@ -9,6 +9,12 @@
     <Project Path="services/auth-service/Auth.Domain/Auth.Domain.csproj" />
     <Project Path="services/auth-service/Auth.Infrastructure/Auth.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/services/restaurant-service/">
+    <Project Path="services/restaurant-service/Restaurant.API/Restaurant.API.csproj" Id="aea02db2-0348-4c54-8345-24f4c978ee78" />
+    <Project Path="services/restaurant-service/Restaurant.Application/Restaurant.Application.csproj" Id="5ded58a6-7ed8-4d85-974e-dd394fbe26e5" />
+    <Project Path="services/restaurant-service/Restaurant.Domain/Restaurant.Domain.csproj" Id="9a1ff348-4d29-4b65-b762-1a745dd60b66" />
+    <Project Path="services/restaurant-service/Restaurant.Infrastructure/Restaurant.Infrastructure.csproj" Id="ba3fdb1b-a341-4ee3-a266-ab78a4e485c8" />
+  </Folder>
   <Folder Name="/shared/">
     <Project Path="shared/FoodDelivery.SharedKernel/FoodDelivery.SharedKernel.csproj" />
   </Folder>
