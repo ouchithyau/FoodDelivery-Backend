@@ -1,15 +1,13 @@
-﻿namespace Ordering.Domain.Entities;
+﻿using System;
+using System.Collections.Generic;
+using Ordering.Domain;
 
-public class Cart
+namespace Ordering.Domain.Entities;
+
+public class Cart : BaseEntity
 {
     public Guid CustomerId { get; set; }
-    public List<CartItem> Items { get; set; } = new List<CartItem>();
-}
 
-public class CartItem
-{
-    public Guid MenuItemId { get; set; }
-    public string ItemName { get; set; } = string.Empty;
-    public decimal UnitPrice { get; set; }
-    public int Quantity { get; set; }
+    // Navigation Property
+    public ICollection<CartItem> Items { get; set; } = new List<CartItem>();
 }
