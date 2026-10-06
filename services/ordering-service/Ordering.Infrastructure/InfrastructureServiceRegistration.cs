@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MassTransit;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Ordering.Application.Interfaces;
@@ -15,14 +16,24 @@ public static class InfrastructureServiceRegistration
         services.AddDbContext<OrderDbContext>(options =>
             options.UseNpgsql(configuration.GetConnectionString("OrderingDbConnectionString")));
 
-        // 2. Redis Configuration for Cart (Temporarily commented out)
-        // services.AddStackExchangeRedisCache(options =>
-        // {
-        //     options.Configuration = configuration.GetConnectionString("RedisConnectionString");
-        // });
+        services.AddStackExchangeRedisCache(options =>
+        {
+            options.Configuration = configuration.GetConnectionString("RedisConnectionString");
+        });
 
-        // 2.1 In-Memory Cache for Testing
-        services.AddDistributedMemoryCache();
+        // 3. RabbitMQ Configuration with MassTransit
+        services.AddMassTransit(config =>
+        {
+            config.UsingRabbitMq((context, configurator) =>
+            {
+                configurator.Host("localhost", "/", h =>
+                {
+                    h.Username("guest");
+                    h.Password("guest");
+                });
+            });
+        });
+
 
         // 3. Register Repositories
         services.AddScoped<IOrderRepository, OrderRepository>();
