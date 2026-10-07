@@ -3,11 +3,11 @@
     "Name": "New Profile",
     "Projects": [
       {
-        "Path": "..\\api-gateway\\FoodDelivery.ApiGateway\\FoodDelivery.ApiGateway.csproj",
+        "Path": "services\\ordering-service\\Ordering.API\\Ordering.API.csproj",
         "Action": "Start"
       },
       {
-        "Path": "..\\services\\auth-service\\Auth.API\\Auth.API.csproj",
+        "Path": "services\\payment-service\\Payment.API\\Payment.API.csproj",
         "Action": "Start"
       }
     ]

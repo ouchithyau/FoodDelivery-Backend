@@ -15,6 +15,12 @@
     <Project Path="services/ordering-service/Ordering.Domain/Ordering.Domain.csproj" Id="e573133b-281c-4e6f-9891-33822f752549" />
     <Project Path="services/ordering-service/Ordering.Infrastructure/Ordering.Infrastructure.csproj" Id="30dfc839-b900-440c-a83b-6e7727d4cd72" />
   </Folder>
+  <Folder Name="/services/payment-service/">
+    <Project Path="services/payment-service/Payment.API/Payment.API.csproj" Id="4d39acd2-6798-40cf-8dc5-665452a26612" />
+    <Project Path="services/payment-service/Payment.Application/Payment.Application.csproj" Id="597e7529-2efc-44f8-b304-3765228ba005" />
+    <Project Path="services/payment-service/Payment.Domain/Payment.Domain.csproj" Id="bd119826-46db-4bb7-a92a-9ff74d5fd8e2" />
+    <Project Path="services/payment-service/Payment.Infrastructure/Payment.Infrastructure.csproj" Id="f0ddbaa5-8fe8-474e-971b-151f670da111" />
+  </Folder>
   <Folder Name="/services/restaurant-service/">
     <Project Path="services/restaurant-service/Restaurant.API/Restaurant.API.csproj" Id="aea02db2-0348-4c54-8345-24f4c978ee78" />
     <Project Path="services/restaurant-service/Restaurant.Application/Restaurant.Application.csproj" Id="5ded58a6-7ed8-4d85-974e-dd394fbe26e5" />
