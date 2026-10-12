@@ -9,6 +9,12 @@
     <Project Path="services/auth-service/Auth.Domain/Auth.Domain.csproj" />
     <Project Path="services/auth-service/Auth.Infrastructure/Auth.Infrastructure.csproj" />
   </Folder>
+  <Folder Name="/services/logistics-service/">
+    <Project Path="services/logistics-service/Logistics.API/Logistics.API.csproj" Id="bce67ab8-77ad-4d97-b1f8-42337f124ef9" />
+    <Project Path="services/logistics-service/Logistics.Application/Logistics.Application.csproj" Id="232fd7a0-0143-4fec-86e0-c5f028fc46e3" />
+    <Project Path="services/logistics-service/Logistics.Domain/Logistics.Domain.csproj" Id="d455be4a-878d-44ac-aa1a-0a6d471c96be" />
+    <Project Path="services/logistics-service/Logistics.Infrastructure/Logistics.Infrastructure.csproj" Id="4e79e855-cf4a-4c73-902c-16862e1a20c7" />
+  </Folder>
   <Folder Name="/services/ordering-service/">
     <Project Path="services/ordering-service/Ordering.API/Ordering.API.csproj" Id="106ae283-1281-43ae-b737-99d1387d14cf" />
     <Project Path="services/ordering-service/Ordering.Application/Ordering.Application.csproj" Id="8a1a6a73-bb65-4928-b63e-43711865d607" />
