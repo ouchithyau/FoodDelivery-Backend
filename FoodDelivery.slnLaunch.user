@@ -9,6 +9,14 @@
       {
         "Path": "services\\payment-service\\Payment.API\\Payment.API.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "services\\logistics-service\\Logistics.API\\Logistics.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "api-gateway\\FoodDelivery.ApiGateway\\FoodDelivery.ApiGateway.csproj",
+        "Action": "Start"
       }
     ]
   }
