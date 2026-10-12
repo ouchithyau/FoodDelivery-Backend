@@ -17,6 +17,10 @@
       {
         "Path": "api-gateway\\FoodDelivery.ApiGateway\\FoodDelivery.ApiGateway.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "services\\support-service\\Support.API\\Support.API.csproj",
+        "Action": "Start"
       }
     ]
   }

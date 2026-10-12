@@ -33,6 +33,12 @@
     <Project Path="services/restaurant-service/Restaurant.Domain/Restaurant.Domain.csproj" Id="9a1ff348-4d29-4b65-b762-1a745dd60b66" />
     <Project Path="services/restaurant-service/Restaurant.Infrastructure/Restaurant.Infrastructure.csproj" Id="ba3fdb1b-a341-4ee3-a266-ab78a4e485c8" />
   </Folder>
+  <Folder Name="/services/support-service/">
+    <Project Path="services/support-service/Support.API/Support.API.csproj" Id="d41aba29-e412-43c5-afd7-cbd85f307bc9" />
+    <Project Path="services/support-service/Support.Application/Support.Application.csproj" Id="cb7829d1-25d2-42a5-b82c-deb975b8d286" />
+    <Project Path="services/support-service/Support.Domain/Support.Domain.csproj" Id="579ebab4-ac06-43d2-ae43-844fabe290e8" />
+    <Project Path="services/support-service/Support.Infrastructure/Support.Infrastructure.csproj" Id="f55d5cb9-7fcd-4cd3-9ad4-a40192231cff" />
+  </Folder>
   <Folder Name="/shared/">
     <Project Path="shared/FoodDelivery.SharedKernel/FoodDelivery.SharedKernel.csproj" />
   </Folder>
