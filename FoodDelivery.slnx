@@ -4,36 +4,42 @@
   </Folder>
   <Folder Name="/services/" />
   <Folder Name="/services/auth-service/">
+    <File Path="Dockerfile" />
     <Project Path="services/auth-service/Auth.API/Auth.API.csproj" />
     <Project Path="services/auth-service/Auth.Application/Auth.Application.csproj" />
     <Project Path="services/auth-service/Auth.Domain/Auth.Domain.csproj" />
     <Project Path="services/auth-service/Auth.Infrastructure/Auth.Infrastructure.csproj" />
   </Folder>
   <Folder Name="/services/logistics-service/">
+    <File Path="Dockerfile" />
     <Project Path="services/logistics-service/Logistics.API/Logistics.API.csproj" Id="bce67ab8-77ad-4d97-b1f8-42337f124ef9" />
     <Project Path="services/logistics-service/Logistics.Application/Logistics.Application.csproj" Id="232fd7a0-0143-4fec-86e0-c5f028fc46e3" />
     <Project Path="services/logistics-service/Logistics.Domain/Logistics.Domain.csproj" Id="d455be4a-878d-44ac-aa1a-0a6d471c96be" />
     <Project Path="services/logistics-service/Logistics.Infrastructure/Logistics.Infrastructure.csproj" Id="4e79e855-cf4a-4c73-902c-16862e1a20c7" />
   </Folder>
   <Folder Name="/services/ordering-service/">
+    <File Path="Dockerfile" />
     <Project Path="services/ordering-service/Ordering.API/Ordering.API.csproj" Id="106ae283-1281-43ae-b737-99d1387d14cf" />
     <Project Path="services/ordering-service/Ordering.Application/Ordering.Application.csproj" Id="8a1a6a73-bb65-4928-b63e-43711865d607" />
     <Project Path="services/ordering-service/Ordering.Domain/Ordering.Domain.csproj" Id="e573133b-281c-4e6f-9891-33822f752549" />
     <Project Path="services/ordering-service/Ordering.Infrastructure/Ordering.Infrastructure.csproj" Id="30dfc839-b900-440c-a83b-6e7727d4cd72" />
   </Folder>
   <Folder Name="/services/payment-service/">
+    <File Path="Dockerfile" />
     <Project Path="services/payment-service/Payment.API/Payment.API.csproj" Id="4d39acd2-6798-40cf-8dc5-665452a26612" />
     <Project Path="services/payment-service/Payment.Application/Payment.Application.csproj" Id="597e7529-2efc-44f8-b304-3765228ba005" />
     <Project Path="services/payment-service/Payment.Domain/Payment.Domain.csproj" Id="bd119826-46db-4bb7-a92a-9ff74d5fd8e2" />
     <Project Path="services/payment-service/Payment.Infrastructure/Payment.Infrastructure.csproj" Id="f0ddbaa5-8fe8-474e-971b-151f670da111" />
   </Folder>
   <Folder Name="/services/restaurant-service/">
+    <File Path="Dockerfile" />
     <Project Path="services/restaurant-service/Restaurant.API/Restaurant.API.csproj" Id="aea02db2-0348-4c54-8345-24f4c978ee78" />
     <Project Path="services/restaurant-service/Restaurant.Application/Restaurant.Application.csproj" Id="5ded58a6-7ed8-4d85-974e-dd394fbe26e5" />
     <Project Path="services/restaurant-service/Restaurant.Domain/Restaurant.Domain.csproj" Id="9a1ff348-4d29-4b65-b762-1a745dd60b66" />
     <Project Path="services/restaurant-service/Restaurant.Infrastructure/Restaurant.Infrastructure.csproj" Id="ba3fdb1b-a341-4ee3-a266-ab78a4e485c8" />
   </Folder>
   <Folder Name="/services/support-service/">
+    <File Path="Dockerfile" />
     <Project Path="services/support-service/Support.API/Support.API.csproj" Id="d41aba29-e412-43c5-afd7-cbd85f307bc9" />
     <Project Path="services/support-service/Support.Application/Support.Application.csproj" Id="cb7829d1-25d2-42a5-b82c-deb975b8d286" />
     <Project Path="services/support-service/Support.Domain/Support.Domain.csproj" Id="579ebab4-ac06-43d2-ae43-844fabe290e8" />
@@ -42,5 +48,7 @@
   <Folder Name="/shared/">
     <Project Path="shared/FoodDelivery.SharedKernel/FoodDelivery.SharedKernel.csproj" />
   </Folder>
-  <Folder Name="/Solution Items/" />
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
 </Solution>

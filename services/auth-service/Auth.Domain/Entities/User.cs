@@ -9,6 +9,8 @@ public class User
     public string Email { get; set; } = string.Empty;
     public string PasswordHash { get; set; } = string.Empty;
 
+    public string Role { get; set; } = "Customer";
+
     // Relationship: One User has many Addresses
     public ICollection<Address> Addresses { get; set; } = new List<Address>();
 }
